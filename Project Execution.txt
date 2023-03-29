@@ -1,0 +1,19 @@
+- This project implements simple address book app using FastAPI.
+
+- All the required libraries which need to installed are given in requirements.txt
+
+- Install these libraries in your virtual environment (venv) using following command:
+		pip install -r requirements.txt
+
+- To run this application we have installed the library called uvicorn.
+
+- In virtual environment, go to the project location and type following command to start the server:
+		uvicorn Address_book:app --reload
+
+    General command (uvicorn aap_name:app --reload)
+
+- The server runs on following url : http://127.0.0.1:8000  (or http://localhost:8000)
+
+- The GUI can be accessed from FastAPI's swagger Doc using follwing url:
+
+			http://127.0.0.1:8000/docs  (or http://localhost:8000/docs)	--> Here, all CRUD operations can be performed.
